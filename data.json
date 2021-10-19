@@ -1,0 +1,50 @@
+{
+    "projects": [
+    {
+        "id": 0,
+        "project_name": "Random Quote Generator",
+        "description": "This JavaScript project picks a random quote from an array and displays it, as well as a random background color. The quotes are also changed automatically within a couple seconds. ",
+        "technologies": ["HTML", "CSS", "Javascript"],
+        "live_link": "https://darrennickerson.github.io/techdegree-project-1/",
+        "github_link": "https://github.com/darrennickerson/techdegree-project-1",
+        "image_urls": ["project_1/index.png", "project_1/full-1.png", "project_1/full-2.png", "project_1/full-3.png"]
+    },
+    {
+        "id": 1,
+        "project_name": "Data Pagination and Filtering",
+        "description": "Student Directory was built with vanilla Javascript, using static data. There is pagination controlling how long the page is. Also filtering so you can easily search for a student.",
+        "technologies": ["HTML", "CSS", "Javascript", "Pagination"],
+        "live_link": "https://darrennickerson.github.io/techdegree-project-2/",
+        "github_link": "https://github.com/darrennickerson/techdegree-project-2",
+        "image_urls": ["project_2/index.png", "project_2/full-1.png", "project_2/full-2.png", "project_2/full-3.png"]
+    },
+    {
+        "id": 2,
+        "project_name": "Interactive Form",
+        "description": "This interactive form uses javascript to validate data and uses logic to help the user from making errors before submiting. Also hides and shows content depending on which option is selected.",
+        "technologies": ["HTML", "CSS", "Javascript", "Regex", "Form Validation"],
+        "live_link": "https://darrennickerson.github.io/techdegree-project-3/",
+        "github_link": "https://github.com/darrennickerson/techdegree-project-3",
+        "image_urls": ["project_3/index.png", "project_3/full-1.png", "project_3/full-2.png", "project_3/full-3.png"]
+    },
+    {
+        "id": 3,
+        "project_name": "OOP Game Show App",
+        "description": "The game show app using object oriented programming give the user a fun game right in the browser. A random phrase is selected when the game starts the users then selects letters to reveal them in the phrase or lose a life. ",
+        "technologies": ["HTML", "CSS", "OOJS"],
+        "live_link": "https://darrennickerson.github.io/techdegree-project-4-v2/",
+        "github_link": "https://github.com/darrennickerson/techdegree-project-4-v2",
+        "image_urls": ["project_4/index.png", "project_4/full-1.png", "project_4/full-2.png", "project_4/full-3.png"]
+    },
+    {
+        "id": 4,
+        "project_name": "Public API Requests",
+        "description": "Similar to the student directory project, but instead of static content the users are fetcehed from an API. Also you can select a single employee to see more information from them. Using navigation on the modal window to go the next or previous employee. ",
+        "technologies": ["JavaScript", "API's", "Data Fetching"],
+        "live_link": "https://darrennickerson.github.io/techdegree-project-5/",
+        "github_link": "https://github.com/darrennickerson/techdegree-project-5",
+        "image_urls": ["project_5/index.png", "project_5/full-1.png", "project_5/full-2.png", "project_5/full-3.png"]
+    }
+   ]
+
+}

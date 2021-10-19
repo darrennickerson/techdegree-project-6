@@ -1,0 +1,12 @@
+extends layout.pug
+block content
+ 
+	
+		h1= err.message
+		h2= err.status 
+		p= err.stack
+	
+nav.nav.error
+        a.underline(href='/')
+            span &larr;
+            |  Back to the Home page
