@@ -11,7 +11,6 @@ app.get("/", (req, res) => {
   res.render("index", { projects });
 });
 app.get("/about", (req, res) => {
-  throw new Error(500);
   res.render("about");
 });
 //Dynamic Project routes with error handling
