@@ -11,6 +11,7 @@ app.get("/", (req, res) => {
   res.render("index", { projects });
 });
 app.get("/about", (req, res) => {
+  throw new Error(500);
   res.render("about");
 });
 //Dynamic Project routes with error handling
@@ -41,9 +42,11 @@ app.use((err, req, res, next) => {
   if (err.status === 404) {
     res.status(err.statusCode);
     err.message = "Page Not Found";
+    console.error("Page Not Found", err.status);
     res.render("page-not-found", { err });
   } else {
     res.status(err.statusCode || 500);
+    console.error("Server Error", err.status);
     err.message = "Server Error.";
     res.render("error", { err });
   }

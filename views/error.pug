@@ -1,12 +1,12 @@
 extends layout.pug
 block content
  
+    div.error
+        h1= err.message
+        h2= err.status 
+        p= err.stack
 	
-		h1= err.message
-		h2= err.status 
-		p= err.stack
-	
-nav.nav.error
-        a.underline(href='/')
-            span &larr;
-            |  Back to the Home page
+        nav.nav.error
+            a.underline(href='/')
+                span &larr;
+                    |  Back to the Home page
