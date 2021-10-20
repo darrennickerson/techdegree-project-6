@@ -49,6 +49,7 @@ app.use((err, req, res, next) => {
   }
 });
 
+// Start Server on port 3000
 app.listen(3000, () => {
   console.log("the project is running on localhost:3000");
 });
