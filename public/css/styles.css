@@ -21,8 +21,8 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background: #fefefe;
-  background: #000;
+
+  background: #7375fa;
   transform: translateX(0px);
 
   transition: all 0.4s ease-out;
@@ -142,7 +142,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: #7375fa;
 }
 
 .sidebar-info-box {
@@ -181,7 +181,7 @@ nav a span {
   text-rendering: optimizeLegibility;
   line-height: 1.6;
   font-size: 14px;
-  color: #999;
+  color: #000;
 }
 
 .sidebar a {
@@ -190,7 +190,12 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555;
+  color: #ffffff;
+  transition: 1.2s ease-in-out;
+}
+.sidebar a:hover {
+  text-decoration: underline;
+  color: #333;
 }
 
 .header {
