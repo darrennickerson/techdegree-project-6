@@ -3,8 +3,8 @@
         {
             "id": 0,
             "project_name": "Tim's Overhead Doors",
-            "description": "Similar to the student directory project, but instead of static content the users are fetcehed from an API. Also you can select a single employee to see more information from them. Using navigation on the modal window to go the next or previous employee. ",
-            "technologies": ["React", "API's", "Data Fetching", "State Management", "Netlify"],
+            "description": "Tim's Overhead doors is a local garage door company who needed a small website. One of the requirements for the project was to have a contact form with specific form fields. This was accomplished with emailJS and sendinblue. Also there is a photo gallery of their work which uses the Flickr api so the customer can easily add their own images.  ",
+            "technologies": ["React","React Router", "API's", "Data Fetching", "State Management", "Netlify"],
             "live_link": "https://www.timsdoors.com",
             "github_link": "https://github.com/darrennickerson/techdegree-project-5",
             "image_urls": ["project_6/index.png", "project_6/full-1.png", "project_6/full-2.png", "project_6/full-3.png"]
